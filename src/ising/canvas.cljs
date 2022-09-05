@@ -46,8 +46,8 @@
 (defn clear-rect
   ([ctx] (clear-rect ctx
                      [0 0]
-                     [(width (.canvas ctx))
-                      (height (.canvas ctx))]))
+                     [(.-width (.-canvas ctx))
+                      (.-height (.-canvas ctx))]))
   ([ctx [x y] [w h]] (.clearRect ctx x y w h)))
 
 ;; Paths

@@ -1,7 +1,7 @@
 (ns ising.core-test
     (:require
      [cljs.test :refer-macros [deftest is testing]]
-     [ising.core :refer [multiply]]))
+     ))
 
 ;; (deftest multiply-test
   ;; (is (= (* 1 2) (multiply 1 2))))
